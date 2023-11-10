@@ -1,78 +1,117 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Kanit:wght@300&family=Merriweather:wght@300&family=Montserrat:wght@700&family=Raleway:ital,wght@0,100;0,500;1,100&family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="form.css">
-    </head>
-    <body>
-    
-    <div class="holder">
-    <form action="">
-            <h1>Payement Form</h1>
-            <em class="impotant">Required Fileds End With "*"</em>
-        <fieldset>
-            <legend> <h2>Personal Information</h2> </legend>
-            <p> <input type="text" name="Fname" required placeholder="First Name:*" > </p>
-            <p> <input type="text" name="lname" required placeholder="Last Name:*"> </p>
-        <fieldset class="gender">
-            <legend>Gender*</legend>
-            <p >
-                Male <input type="radio" name="gender" id="Male" requried >
-                Female <input type="radio" name="gender" id="Female" required>
-                Others <input type="radio" name="gender" id="Others" required>
-            </p>
-        </fieldset>
-            <p>
-                Age:* <input type="date" name="age" requried  >
-            </p>
-            <p>
-                Adress:* <textarea name="adress" rows="10" cols="100" id="" requried placeholder="Enter yor full adress"></textarea>
-            </p>
-            <p>
-                Email:* <input type="email" name="Email" id="" placeholder="abcde@email.com">
-            </p>
-            <p>
-                Pincode* <input type="number" name="Pincode" id="" placeholder="123456" requried>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend><h2>Payement Information </h2> </legend>
-            <p>Card type:*</p>
-            <select name="Card type" id="Card type" requried>
-                <option value="">---Select The Card Name---</option>
-                <option value="Visa card">Visa card</option>
-                <option value="Master card">Master Card</option>
-                <option value="Rupay card">Rupay Card</option>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Kanit:wght@300&family=Merriweather:wght@300&family=Montserrat:wght@700&family=Raleway:ital,wght@0,100;0,500;1,100&family=Roboto+Condensed&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
 
-            </select>
-            <p>
-                Card Number:* <input type="number" name="Card Number" id=" Card Number" requried>
+<body>
 
-            </p>
-            <p>
-                Expiration Date:* <input type="date" name="Expritation Date" id=" Expiration date" required>
-            </p>
+
+    <div class="row">
+        <!-- Payment Form  -->
+
+
+        <div class="holder">
+
+            <form action="">
+                <h1>Payement Form</h1>
+                <em class="impotant">Required Fileds End With "*"</em>
+                <fieldset>
+                    <legend>
+                        <h2>Personal Information</h2>
+                    </legend>
+                    <p> <input type="text" name="Fname" required placeholder="First Name:*"> </p>
+                    <p> <input type="text" name="lname" required placeholder="Last Name:*"> </p>
+                    <span>
+                        <legend>Gender*</legend>
+                        <fieldset class="gender">
+
+                            <p>
+                                Male <input type="radio" name="gender" id="Male" requried>
+                                Female <input type="radio" name="gender" id="Female" required>
+                                Others <input type="radio" name="gender" id="Others" required>
+                            </p>
+                        </fieldset>
+                    </span>
+
+                    <p>
+                        Age:* <input type="date" name="age" requried>
+                    </p>
+                    <p>
+                        Adress:* <textarea name="adress" rows="10" cols="100" id="" requried
+                            placeholder="Enter yor full adress"></textarea>
+                    </p>
+                    <p>
+                        Email:* <input type="email" name="Email" id="" placeholder="abcde@email.com">
+                    </p>
+                    <p>
+                        Pincode* <input type="number" name="Pincode" id="" placeholder="123456" requried>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h2>Payement Information </h2>
+                    </legend>
+                    <p>Card type:*</p>
+                    <select name="Card type" id="Card type" requried>
+                        <option value="">---Select The Card Name---</option>
+                        <option value="Visa card">Visa card</option>
+                        <option value="Master card">Master Card</option>
+                        <option value="Rupay card">Rupay Card</option>
+
+                    </select>
+                    <p>
+                        Card Number:* <input type="number" name="Card Number" id=" Card Number" requried>
+
+                    </p>
+                    <p>
+                        Expiration Date:* <input type="date" name="Expritation Date" id=" Expiration date" required>
+                    </p>
+
+                    <p>
+                        CVV:* <input type="password" name="Cvv" id="cvv" maxlength="4" minlength="0" requried>
+                    </p>
+                    <input type="submit" value="Pay Now">
+
+
+
+
+
+                </fieldset>
+
+
+            </form>
+        </div>
+
+<!-- sidebar -->
+        <div class="sidebar">
+            <p style="margin-left: 30px; margin-top:35px;font-size: 25px;">Contact Us</p>
+            <p style="margin-left: 30px;">Are You In Any Trouble? Fill The Form!</p>
+
+            <form action="" method="post"><input style="
+            width: 23em;
+            margin-left: 30px;
+        " type="text" placeholder="Name"></form>
             
-            <p>
-                CVV:* <input type="password" name="Cvv" id="cvv" maxlength="4" minlength="0" requried>
-            </p>
-            <input type="submit" value="Pay Now" >
+        </div>
 
 
 
 
-            
-        </fieldset>
 
-            
-        </form>
     </div>
-    </body>
-    </html>
+
+</body>
+
+</html>

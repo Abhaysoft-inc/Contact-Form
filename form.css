@@ -12,7 +12,7 @@
     .holder{
         padding: 20px;
         margin: 25px 30px;
-        background-color: rgba(0, 255, 195, 0.591);
+        background-color: #32CD32;
     }
     input[type="text"],
     input[type="date"],
@@ -87,6 +87,20 @@
     input[type="Number"]{
         accent-color: ;
     }
+
+
+    .row{
+        display: flex;
+
+    }
+    .sidebar{
+        height: 35em;
+        background-color: aquamarine;
+        width: 24em;
+        margin-top: 25px;
+        
+    }
+
         
 
 
