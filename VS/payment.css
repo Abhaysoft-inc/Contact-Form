@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px ;
+
+   
+
+    
+}
+.container{
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border: solid rgba(194, 191, 191, 0.895);
+    border-radius: 10px;
+}
+input[type=text],
+input[type=number],
+select,
+input[type=email]
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    
+    
+   
+}
+textarea{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    cursor: text;
+}
+input[type=submit]{
+    font-size: 15px;
+    background-color: rgba(95, 150, 95, 0.769);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    
+}
+input[type=submit]:hover{
+    font-size: 17px;
+    background-color: darkgreen;
+    box-shadow: 5px 5px 5px black;
+
+}
+    
+    
+
+span{
+   
+    margin: 2px;
+    text-align: left;
+    font-size: medium;
+}
+a{
+    padding: 1%;
+    text-decoration: none;
+   
+
+}
+a:hover{
+    font-size: large;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: rgb(68, 77, 68);
+}
+#imp{
+    color: rgb(213, 0, 0);
+    border: solid ;
+    background-color: white;
+    margin: 0% 0% 0% 78%;
+    padding: 2px;
+    font-size: small;
+}
+#Fname,#Mname,#Lname,
+#Age,#Address,
+#Email,#Pincode,#Card_type,
+#card_no,#cvv,#Expirtaion_Date{
+    border: 2px solid ;
+    border-radius: 4px;
+}
+img{
+    width: 5%;
+    
+    
+}
+
+.card_type{
+    margin: 2px;
+    padding:2px;
+}
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+    *{
+        box-sizing: border-box;
+        margin: 0p;
+    }
+    body{
+        padding: 8px;
+        margin: 10px 10px; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 5px;
+        
+    } 
+    .holder{
+        padding: 20px;
+        margin: 25px 30px;
+        background-color: rgba(0, 255, 195, 0.591);
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    textarea,select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 2px  solid rgba(40, 232, 232, 0);
+    border-radius: 5px;
+    ;
+    }
+    .gender{
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border:none ;
+    }
+    h1{
+        background-color: rgba(153, 152, 162, 0.726);
+        text-align: center;
+        font-size: 50px;
+        font-family: montserrat;
+        font-weight: 50px;
+        color: white;
+    }
+    .impotant{
+        text-align: left;
+        color: red;
+        font-size: 10px;
+       padding: 5px;
+       border: 2px dotted red ;
+       
+        
+    }
+   input:hover{
+        text-decoration: dashed;
+        border: none;
+        border-color: transparent;
+        background-color: rgba(43, 255, 0, 0.37);
+        cursor: pointer;
+    }
+    textarea:hover{
+        text-decoration: dashed;
+        border: none;
+        border-color: transparent;
+        background-color: rgb(43, 255, 0, 0.37);
+        cursor: pointer;
+    }
+    .gender:hover{
+        text-decoration: dashed;
+        border: none;
+        border-color: transparent;
+        background-color: rgb(43, 255, 0, 0.37);
+        cursor: pointer;
+    }
+    input[type="Submit"]{
+        background-color: lightgreen;
+        width: 100%;
+        border: none;
+    }
+    input[type="Submit"]:hover{
+        background-color: rgba(0, 100, 0, 0.687);
+    }
+    input[type="radio"]{
+        accent-color: darkgreen;
+    }
+    input[type="Number"]{
+        accent-color: ;
+    }
+        
+
+

@@ -1,0 +1,33 @@
+ li #m {
+    text-decoration: double;
+    color: yellowgreen;
+}
+p sub {
+    color: blue;
+
+}
+ .hey{
+    color: yellow;
+}
+img{
+    width: 50%;
+    height: 50%;
+     border-radius: 50%;
+}
+div{
+    background-image: url("VS/harsh h1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+h2{
+    font-family: alumni sans collegiate one;
+     color: blueviolet;
+     font-size: 100px;}
+     
+em{
+    text-align: right;
+}
+.cla{
+    text-align: right;
+}

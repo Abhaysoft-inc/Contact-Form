@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#22396a ;
+    margin:20px 30px;
+   
+}
+.header{border: yellow;
+    
+    
+ }
+#my{
+   clip-path:circle(50% at 50% 50%) ;
+float: left;
+   
+}
+h1 a:hover{
+    font-size: 35px;
+    text-decoration: underline;
+}
+h1 a {
+    text-decoration: none;
+    font-family:Roboto Condensed ;
+    color: orange;
+    
+}
+
+main{
+    font-size: 20px;
+    margin: 20px 30px;
+    padding: 20px 30px;
+    background-color: #6081ca;
+    border-radius: 12px;
+}
+h2{
+    font-family: Merriweather;
+    color: #31bb66;
+}
+p{
+    font-family: Raleway;
+    color: white;
+}
+h3{
+    font-family: Kanit;
+    
+}
+footer{
+    border: solid #22396a ;
+    border-right-width: 50px;
+    padding: 5px 10px 5px 10px;
+    background-color: #22396a;
+    text-align: center ;
+}
+
+
+ .ti img:hover{
+    width: 4%;
+}
+.ft img:hover{
+    width: 3%
+}
+@media all and (max-width:1000px ) and (min-width: 330px){
+    h1 a::before{
+        content: url(rsz_email.png);
+        margin: 0px 10px 0px 0px;
+    }
+    h1 a::before:hover{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:2000px) and (min-width: 1001px){
+    h1 a::after{
+    content: "("attr(data-email)")";
+    font-size: 10px;
+    
+    }
+}
+
+@media all and (max-width: 424px) and (min-width:250px){
+    body{
+        background-color:#22396a ;
+        margin:1px 3px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+        text-decoration: underline;
+
+    }
+    h3 {
+        font-size:15px;
+        text-decoration: underline;
+    }
+    main{
+        overflow: hidden;
+        margin: 5px 10px;
+        padding: 5px 10px;
+        background-color: #6081ca;
+        border-radius: 12px;
+    }
+    p {
+        font-size: 10px;
+    }
+    footer{
+        float: left;
+        border: none;
+        border-right-width: 0px;
+        padding: 0px 0px 0px 0px;
+        background-color: #6081ca;
+        text-align: left ;
+    }
+    .footer a img{
+        width: 10px;
+    }
+
+}
+@media all and (max-width: 700px) and (min-width:425px){
+    body{
+        background-color:#22396a ;
+        margin:1px 3px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+        text-decoration: underline;
+
+    }
+    h3 {
+        font-size:15px;
+        text-decoration: underline;
+    }
+    main{
+        overflow: hidden;
+        margin: 0% 0%;
+        padding: 10px 10px;
+        background-color: #6081ca;
+        border-radius: 12px;
+    }
+    p {
+        font-size: 10px;
+    }
+    footer{
+       
+        float: left;
+        border: none;
+        border-right-width: 0px;
+        padding: 5px 2px 5px 2px;
+        background-color: #6081ca;
+        text-align: left ;
+    }
+
+    .footer a img{
+       width: 20px;
+       
+    }
+
+
+    
+}
+
+    
+    
+   

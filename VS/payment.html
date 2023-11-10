@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" href="payment.css">
+    <title>Payment form</title>
+    
+  </head>
+  <body >
+    
+  <div class="container">
+   
+    <form class="f" >
+      
+    
+      <h1 >Payment Form</h1>
+      <hr>
+      <span id="imp">##Required Fileds are Followed By *</span>
+    
+   
+      <h2>Personal Detail</h2>
+      
+      <p id="fn">
+        First Name:*
+        <input type="Text" name="Fname" required  id="Fname"  >
+      </p>
+      <p id="mn">
+        Middle Name:*
+        <input type="text" name="Mname"  required/ id="Mname">
+      </p>
+      <p  id="ln">
+        Last Name:*
+        <input type="text" name="Lname" required  id="Lname">
+      </p>
+      <fieldset>
+        <legend Class="Gender">Gender*</legend>
+
+        <p>
+          Male    <input type="radio" name="Gender" required />
+          Female  <input type="radio" name="Gender"  required/> 
+          Other   <input type="radio" name="Gender"  required/>
+        </p>
+      </fieldset>
+      <hr />
+      <p id="age" >
+        Age:
+        <input type="number" name="Age" min="1" max="10" id="Age">
+      </p>
+      
+       
+        <p id="address">Address:*
+            <textarea cols="30" rows="10" name="Address" required id="Address"></textarea>
+        </p>
+        <p CLass="Email">
+            Email:*
+            <input type="email" name="Eamil" required id="Email" >
+        </p>
+        <p id="pincode">
+            Pincode:*
+            <input type="Number" name="Pincode" required id="Pincode">
+        </p>
+    
+    
+        <h2>Payment Detail</h2>
+       
+        <p class="card_type">
+            Card type:* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            <select name="Card_type" id="Card_type" required>
+                <option value="">--Select Card Type--</option>
+                <option value="Visa Card">Visa Card</option>
+                <option value="Rupay Card">Rupay Card</option>
+                <option value="Master Card">Master Card</option>
+            </select>
+        </p>
+        <span class="img">
+          <img src="rupay-logo-icon.svg" alt="Rupay Card" width="20%" height="20%" id="rupay">
+          <img src="va.png" alt="Visa card" width="20%" height="20%" id="visa">
+          <img src="master card.png" alt="Master Card" width="20%" height="20%" id="master">
+        </span>
+
+        <p id="card_number">
+            Card Number:*
+            <input type="Number" name="card_no" id="card_no" required>
+        </p>
+        <p class="expiration date">
+            Expiration Date:*
+            <input type="date" Name="Expirtaion Date" Id="Expirtaion_Date" required>
+
+        </p>
+        <p class="cvv">
+            CVV:*
+            <input type="number" Name="cvv" Id="cvv" required>
+        </p>
+   
+     <p>
+       <input type="submit" Name="Pay now" id="Pay now" value="Pay Now">
+     </p>
+     <hr>
+        <span>
+        <a href="#">Faq</a>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   
+        <a href="#">Support</a>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="#">Contect</a>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; 
+        <a href="#">Help</a>
+      </span>
+  
+
+       
+   
+      
+
+      
+    </form>
+ 
+   
+     
+
+    
+  </div>
+ 
+    
+    
+  </body>
+
+</html>
